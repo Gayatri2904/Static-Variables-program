@@ -2,6 +2,10 @@ public class College{
     static String collegeName;
     static int noofBranches;
     static int noofEmployess;
+    String studentName="Gayatri";
+    int classLeader=1;
+    int classroomNumber=26;
+
     public static void main(String[] args) {
       collegeName="BVCITS";
       noofBranches=8;
@@ -9,5 +13,10 @@ public class College{
       System.out.println(College.collegeName);
       System.out.println(College.noofBranches);
       System.out.println(College.noofEmployess);
+      College obj=new College();
+      System.out.println(obj.studentName);
+      System.out.println(obj.classLeader);
+      System.out.println(obj.classroomNumber);
+
     }
 }

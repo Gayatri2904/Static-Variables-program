@@ -1,0 +1,13 @@
+public class College{
+    static String collegeName;
+    static int noofBranches;
+    static int noofEmployess;
+    public static void main(String[] args) {
+      collegeName="BVCITS";
+      noofBranches=8;
+      noofEmployess=100;
+      System.out.println(College.collegeName);
+      System.out.println(College.noofBranches);
+      System.out.println(College.noofEmployess);
+    }
+}

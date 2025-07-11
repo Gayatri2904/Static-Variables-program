@@ -1,0 +1,13 @@
+public class College{
+    String studentName="Gayatri";
+    int classLeader=1;
+    int classroomNumber=26;
+
+    public static void main(String[] args) {
+      College obj=new College();
+      System.out.println(obj.studentName);
+      System.out.println(obj.classLeader);
+      System.out.println(obj.classroomNumber);
+
+    }
+}
